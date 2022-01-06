@@ -87,3 +87,10 @@ h6 {
   backgroundd: transparent !important;
   border-radius: 8px !important;
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 125px;
+}

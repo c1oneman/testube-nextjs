@@ -54,12 +54,12 @@ export default function Home() {
         <div className="flex flex-col mb-4">
           {/* Website scroll list horizontal */}
           <div>
-            <h1 className="font-bold text-2xl">Streaming</h1>
+            <h1 className=" text-2xl">Streaming</h1>
             <div className="mt-2">
               {/* horizontal scroll */}
               <div className="flex space-x-4 overflow-x-auto streamList pb-2 pr-8 ">
                 <div
-                  className="flex shrink-0 items-center justify-center rounded-lg bg-gray-200 h-32 w-56 hover:bg-gray-50 transition cursor-pointer"
+                  className="flex shrink-0 items-center justify-center rounded-lg bg-gray-200 app-container hover:bg-gray-50 transition cursor-pointer"
                   onClick={() => handleOpen("https://netflix.com")}
                 >
                   <Image
@@ -70,7 +70,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  className="flex shrink-0 items-center justify-center rounded-lg bg-gray-300 h-32 w-56 hover:bg-gray-50 transition cursor-pointer"
+                  className="flex shrink-0 items-center justify-center rounded-lg bg-gray-300 app-container hover:bg-gray-50 transition cursor-pointer"
                   onClick={() => handleOpen("https://youtube.com")}
                 >
                   <Image
@@ -81,7 +81,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  className="flex shrink-0 items-center justify-center rounded-lg bg-gradient-to-r from-indigo-600 to-blue-500 h-32 w-56 hover:bg-none hover:bg-blue-600  cursor-pointer"
+                  className="flex shrink-0 items-center justify-center rounded-lg bg-gradient-to-r from-indigo-600 to-blue-500 app-container hover:bg-none hover:bg-blue-600  cursor-pointer"
                   onClick={() => handleOpen("https://hbomax.com")}
                 >
                   <Image
@@ -92,7 +92,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  className="flex shrink-0 items-center justify-center rounded-lg h-32 w-56 bg-slate-800 hover:bg-slate-700 transition cursor-pointer"
+                  className="flex shrink-0 items-center justify-center rounded-lg app-container bg-slate-800 hover:bg-slate-700 transition cursor-pointer"
                   onClick={() => handleOpen("https://hulu.com")}
                 >
                   <Image
@@ -103,7 +103,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  className="flex shrink-0 items-center justify-center rounded-lg h-32 w-56 bg-gray-200 hover:bg-blue-100 transition cursor-pointer"
+                  className="flex shrink-0 items-center justify-center rounded-lg app-container bg-gray-200 hover:bg-blue-100 transition cursor-pointer"
                   onClick={() =>
                     handleOpen(
                       "https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011"
@@ -118,7 +118,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  className="flex shrink-0 items-center justify-center h-32 w-56 rounded-lg bg-indigo-700 hover:bg-indigo-800 transition cursor-pointer"
+                  className="flex shrink-0 items-center justify-center app-container rounded-lg bg-indigo-700 hover:bg-indigo-800 transition cursor-pointer"
                   onClick={() => handleOpen("https://www.disneyplus.com/")}
                 >
                   <Image
@@ -129,7 +129,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  className="flex shrink-0 items-center justify-center h-32 w-56 rounded-lg bg-gray-100 hover:bg-gray-50 transition cursor-pointer"
+                  className="flex shrink-0 items-center justify-center app-container rounded-lg bg-gray-100 hover:bg-gray-50 transition cursor-pointer"
                   onClick={() => handleOpen("https://www.peacocktv.com/")}
                 >
                   <Image
@@ -146,12 +146,12 @@ export default function Home() {
         <div className="flex flex-col  mb-4">
           {/* Website scroll list horizontal */}
           <div>
-            <h1 className="font-bold text-2xl">Personal Media</h1>
+            <h1 className=" text-2xl">Personal Media</h1>
             <div className="mt-2">
               {/* horizontal scroll */}
               <div className="flex space-x-4 overflow-x-auto  streamList pb-2 pr-8">
                 <div
-                  className="flex shrink-0 items-center justify-center h-32 w-56  rounded-lg bg-slate-800 hover:bg-slate-900 transition cursor-pointer"
+                  className="flex shrink-0 items-center justify-center app-container  rounded-lg bg-slate-800 hover:bg-slate-900 transition cursor-pointer"
                   onClick={() => handleOpen("https://app.plex.tv/")}
                 >
                   <Image
@@ -168,12 +168,12 @@ export default function Home() {
         <div className="flex flex-col  mb-4">
           {/* Website scroll list horizontal */}
           <div>
-            <h1 className="font-bold text-2xl">Utility</h1>
+            <h1 className="text-2xl">Utility</h1>
             <div className="mt-2">
               {/* horizontal scroll */}
               <div className="flex space-x-4 overflow-x-auto  streamList pb-2 pr-8">
                 <div
-                  className="flex shrink-0 items-center justify-center h-32 w-56 rounded-lg bg-gray-100 hover:bg-gray-50 transition cursor-pointer"
+                  className="flex shrink-0 items-center justify-center app-container rounded-lg bg-gray-100 hover:bg-gray-50 transition cursor-pointer"
                   onClick={() => handleOpen("https://google.com")}
                 >
                   <Image
@@ -184,7 +184,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  className="flex shrink-0 items-center justify-center h-32 w-56 rounded-lg bg-red-500 hover:bg-red-600 transition cursor-pointer"
+                  className="flex shrink-0 items-center justify-center app-container rounded-lg bg-red-500 hover:bg-red-600 transition cursor-pointer"
                   onClick={() => handleOpen("https://www.tesla.com/")}
                 >
                   <Image
@@ -195,7 +195,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  className="flex shrink-0 items-center justify-center h-32 w-56 rounded-lg bg-orange-200 hover:bg-gray-300 transition cursor-pointer"
+                  className="flex shrink-0 items-center justify-center app-container  rounded-lg bg-orange-200 hover:bg-gray-300 transition cursor-pointer"
                   onClick={() => handleOpen("https://na.chargepoint.com/home")}
                 >
                   <Image
