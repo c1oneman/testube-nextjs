@@ -28,6 +28,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet"
         />
+        <meta name="language" content="en" />
       </Head>
 
       <div className={`text-white text-xl pl-2 sm:pl-8`}>
