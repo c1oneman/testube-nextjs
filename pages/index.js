@@ -65,7 +65,7 @@ export default function Home() {
                   <Image
                     src="/NetflixLogo.svg"
                     height={64}
-                    width={200}
+                    width={150}
                     alt={"Netflix Logo"}
                   />
                 </div>
@@ -74,9 +74,9 @@ export default function Home() {
                   onClick={() => handleOpen("https://youtube.com")}
                 >
                   <Image
-                    src="/YoutubeLogo.svg"
-                    height={64}
-                    width={200}
+                    src="/youtube-ar21.svg"
+                    height={74}
+                    width={150}
                     alt={"Youtube Logo"}
                   />
                 </div>
