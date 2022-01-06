@@ -42,7 +42,7 @@ export default function Home() {
             alt={"Tesla Logo"}
           />
 
-          <div className="block lg:hidden">
+          <div className="">
             <button
               onClick={sendToFullscreen}
               className="material-icons h-full"
