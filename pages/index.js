@@ -187,7 +187,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col  mb-4">
+        <div className="flex flex-col pb-4">
           {/* Website scroll list horizontal */}
           <div>
             <h1 className="text-2xl">Utility</h1>
