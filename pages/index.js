@@ -105,7 +105,9 @@ export default function Home() {
                 <div
                   className="flex shrink-0 items-center justify-center rounded-lg h-32 w-56 bg-gray-200 hover:bg-blue-100 transition cursor-pointer"
                   onClick={() =>
-                    handleOpen("https://www.amazon.com/Amazon-Video")
+                    handleOpen(
+                      "https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011"
+                    )
                   }
                 >
                   <Image
