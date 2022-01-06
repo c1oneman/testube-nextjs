@@ -51,7 +51,7 @@ export default function Home() {
             </button>
           </div>
         </header>
-        <div className="flex flex-col mb-4">
+        <div className="flex flex-col mb-4 fade-right">
           {/* Website scroll list horizontal */}
           <div>
             <h1 className=" text-2xl">Streaming</h1>
@@ -143,7 +143,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col  mb-4">
+        <div className="flex flex-col mb-4 fade-right">
           {/* Website scroll list horizontal */}
           <div>
             <h1 className=" text-2xl">Personal Media</h1>
@@ -165,7 +165,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col  mb-4">
+        <div className="flex flex-col  mb-4 fade-right">
           {/* Website scroll list horizontal */}
           <div>
             <h1 className=" text-2xl">Gaming</h1>
