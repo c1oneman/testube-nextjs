@@ -174,7 +174,7 @@ export default function Home() {
               <div className="flex space-x-4 overflow-x-auto  streamList pb-2 pr-8">
                 <div
                   className="flex shrink-0 items-center justify-center h-32 w-56 rounded-lg bg-gray-100 hover:bg-gray-50 transition cursor-pointer"
-                  onClick={() => handleOpen("https://google.com/maps")}
+                  onClick={() => handleOpen("https://google.com")}
                 >
                   <Image
                     src="/Google-Logo.wine.svg"
@@ -185,9 +185,7 @@ export default function Home() {
                 </div>
                 <div
                   className="flex shrink-0 items-center justify-center h-32 w-56 rounded-lg bg-red-500 hover:bg-red-600 transition cursor-pointer"
-                  onClick={() =>
-                    handleOpen("https://www.tesla.com/teslaaccount")
-                  }
+                  onClick={() => handleOpen("https://www.tesla.com/")}
                 >
                   <Image
                     src="/TeslaLogo.svg"
