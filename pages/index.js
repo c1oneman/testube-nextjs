@@ -103,6 +103,19 @@ export default function Home() {
                   />
                 </div>
                 <div
+                  className="flex shrink-0 items-center justify-center rounded-lg h-32 w-56 bg-gray-200 hover:bg-blue-100 transition cursor-pointer"
+                  onClick={() =>
+                    handleOpen("https://www.amazon.com/Amazon-Video")
+                  }
+                >
+                  <Image
+                    src="/PrimeLogo.svg"
+                    height={64}
+                    width={200}
+                    alt={"Prime Video Logo"}
+                  />
+                </div>
+                <div
                   className="flex shrink-0 items-center justify-center h-32 w-56 rounded-lg bg-indigo-700 hover:bg-indigo-800 transition cursor-pointer"
                   onClick={() => handleOpen("https://www.disneyplus.com/")}
                 >
