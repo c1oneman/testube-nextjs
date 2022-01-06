@@ -13,11 +13,8 @@ export default function Home() {
     }
   };
   const handleOpen = (URL) => {
-    const url = encodeURIComponent(URL);
-
     if (typeof window !== "undefined") {
       router.push(`${URL}`);
-      // router.push(`https://www.youtube.com/redirect?&q=${url}`);
     }
   };
 
