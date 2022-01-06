@@ -33,7 +33,7 @@ export default function Home() {
         />
       </Head>
 
-      <div className={`text-white text-xl pl-8`}>
+      <div className={`text-white text-xl pl-2 sm:pl-8`}>
         <header className="w-full py-2 flex justify-between pr-8">
           <Image
             src="/TeslaLogo.svg"
