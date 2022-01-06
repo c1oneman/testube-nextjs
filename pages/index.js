@@ -168,6 +168,28 @@ export default function Home() {
         <div className="flex flex-col  mb-4">
           {/* Website scroll list horizontal */}
           <div>
+            <h1 className=" text-2xl">Gaming</h1>
+            <div className="mt-2">
+              {/* horizontal scroll */}
+              <div className="flex space-x-4 overflow-x-auto  streamList pb-2 pr-8">
+                <div
+                  className="flex shrink-0 items-center justify-center app-container rounded-lg bg-purple-600 transition cursor-pointer"
+                  onClick={() => handleOpen("https://twitch.tv/")}
+                >
+                  <Image
+                    src="/TwitchLogo.svg"
+                    height={64}
+                    width={100}
+                    alt={"Twitch Logo"}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col  mb-4">
+          {/* Website scroll list horizontal */}
+          <div>
             <h1 className="text-2xl">Utility</h1>
             <div className="mt-2">
               {/* horizontal scroll */}
