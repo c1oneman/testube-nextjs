@@ -195,7 +195,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  className="flex shrink-0 items-center justify-center app-container  rounded-lg bg-orange-200 hover:bg-gray-300 transition cursor-pointer"
+                  className="flex shrink-0 items-center justify-center app-container  rounded-lg bg-gray-100 hover:bg-gray-200 transition cursor-pointer"
                   onClick={() => handleOpen("https://na.chargepoint.com/home")}
                 >
                   <Image
